@@ -1,0 +1,73 @@
+SCH Character 1
+### SCHOOL ENROLLMENT ###
+b .N/A (less than 3 years old)
+1 .No, has not attended in the last 3 months
+2 .Yes, public school or public college
+3 .Yes, private school or college or home school
+
+
+SCHL Character 2
+### EDUCATIONAL ATTAINMENT ###
+bb .N/A (less than 3 years old)
+01 .No schooling completed
+02 .Nursery school, preschool
+03 .Kindergarten
+04 .Grade 1
+05 .Grade 2
+06 .Grade 3
+07 .Grade 4
+08 .Grade 5
+09 .Grade 6
+10 .Grade 7
+11 .Grade 8
+12 .Grade 9
+13 .Grade 10
+14 .Grade 11
+15 .12th grade - no diploma
+16 .Regular high school diploma
+17 .GED or alternative credential
+18 .Some college, but less than 1 year
+19 .1 or more years of college credit, no degree
+20 .Associate's degree
+21 .Bachelor's degree
+22 .Master's degree
+23 .Professional degree beyond a bachelor's degree
+
+
+ESR Character 1
+### EMPLOYMENT STATUS CODE ###
+b .N/A (less than 16 years old)
+1 .Civilian employed, at work
+2 .Civilian employed, with a job but not at work
+3 .Unemployed
+4 .Armed forces, at work
+5 .Armed forces, with a job but not at work
+6 .Not in labor force
+
+
+WKL Character 1
+### WHEN LAST WORKED ###
+b .N/A (less than 16 years old)
+1 .Within the past 12 months
+2 .1-5 years ago
+3 .Over 5 years ago or never worked
+
+COW Character 1
+Class of worker
+b .N/A (less than 16 years old/NILF who last worked more than 5
+.years ago or never worked)
+1 .Employee of a private for-profit company or business, or of an
+.individual, for wages, salary, or commissions
+2 .Employee of a private not-for-profit, tax-exempt, or
+.charitable organization
+3 .Local government employee (city, county, etc.)
+4 .State government employee
+5 .Federal government employee
+6 .Self-employed in own not incorporated business, professional
+.practice, or farm
+7 .Self-employed in own incorporated business, professional
+.practice or farm
+8 .Working without pay in family business or farm
+9 .Unemployed and last worked 5 years ago or earlier or never
+.worked
+
