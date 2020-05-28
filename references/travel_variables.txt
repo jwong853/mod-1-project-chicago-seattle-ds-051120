@@ -1,0 +1,59 @@
+JWMNP Numeric 3
+Travel time to work
+bbb .N/A (not a worker or worker who worked at home)
+001..200 .1 to 200 minutes to get to work (Top-coded)
+
+JWTR Character 2
+Means of transportation to work
+bb .N/A (not a worker--not in the labor force, including persons
+.under 16 years; unemployed; employed, with a job but not at
+.work; Armed Forces, with a job but not at work)
+01 .Car, truck, or van
+02 .Bus or trolley bus
+03 .Streetcar or trolley car (carro publico in Puerto Rico)
+04 .Subway or elevated
+05 .Railroad
+06 .Ferryboat
+07 .Taxicab
+08 .Motorcycle
+09 .Bicycle
+10 .Walked
+11 .Worked at home
+
+JWTR Character 2
+Means of transportation to work
+bb .N/A (not a worker--not in the labor force, including persons
+.under 16 years; unemployed; employed, with a job but not at
+.work; Armed Forces, with a job but not at work)
+01 .Car, truck, or van
+02 .Bus or trolley bus
+03 .Streetcar or trolley car (carro publico in Puerto Rico)
+04 .Subway or elevated
+05 .Railroad
+06 .Ferryboat
+07 .Taxicab
+08 .Motorcycle
+09 .Bicycle
+10 .Walked
+11 .Worked at home
+12 .Other method
+
+DRIVESP Character 1
+Number of vehicles calculated from JWRI
+b .N/A (Nonworker or worker who does not drive to work)
+1 .1.000 vehicles (Drove alone)
+2 .0.500 vehicles (In a 2-person carpool)
+3 .0.333 vehicles (In a 3-person carpool)
+4 .0.250 vehicles (In a 4-person carpool)
+5 .0.200 vehicles (In a 5- or 6-person carpool)
+6 .0.143 vehicles (In a 7-or-more person carpool)
+
+ESR Character 1
+Employment status recode
+b .N/A (less than 16 years old)
+1 .Civilian employed, at work
+2 .Civilian employed, with a job but not at work
+3 .Unemployed
+4 .Armed forces, at work
+5 .Armed forces, with a job but not at work
+6 .Not in labor force
