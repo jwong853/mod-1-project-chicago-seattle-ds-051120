@@ -71,3 +71,51 @@ b .N/A (less than 16 years old/NILF who last worked more than 5
 9 .Unemployed and last worked 5 years ago or earlier or never
 .worked
 
+JWMNP Numeric 3
+Travel time to work
+bbb .N/A (not a worker or worker who worked at home)
+001..200 .1 to 200 minutes to get to work (Top-coded)
+JWRIP Numeric 2
+
+Vehicle occupancy
+bb .N/A (not a worker or worker whose means of transportation to
+.work was not car, truck, or van)
+01 .Drove alone
+02 .In 2-person carpool
+03 .In 3-person carpool
+04 .In 4-person carpool
+05 .In 5-person carpool
+06 .In 6-person carpool
+07 .In 7-person carpool
+08 .In 8-person carpool
+09 .In 9-person carpool
+10 .In 10-person or more carpool (Top-coded)
+
+JWTR Character 2
+Means of transportation to work
+bb .N/A (not a worker--not in the labor force, including persons
+.under 16 years; unemployed; employed, with a job but not at
+.work; Armed Forces, with a job but not at work)
+01 .Car, truck, or van
+02 .Bus or trolley bus
+03 .Streetcar or trolley car (carro publico in Puerto Rico)
+04 .Subway or elevated
+05 .Railroad
+06 .Ferryboat
+07 .Taxicab
+08 .Motorcycle
+09 .Bicycle
+10 .Walked
+11 .Worked at home
+12 .Other method
+
+FER Character 1
+Gave birth to child within the past 12 months
+b .N/A (less than 15 years/greater than 50 years/ male)
+1 .Yes
+2 .No
+
+SEX Character 1
+Sex
+1 .Male
+2 .Female
